@@ -8,10 +8,10 @@ import java.util.Scanner;
 
 
 public class MyScanner {
-    FileReader fr;
-    Scanner scan;
-    String fileName;
-    int wordsCount;
+    private FileReader fr;
+    private Scanner scan;
+    private String fileName;
+    private int wordsCount;
     public Map<String, Integer> getMap (String fileName) throws IOException {
         this.fileName = fileName;
         openFile();

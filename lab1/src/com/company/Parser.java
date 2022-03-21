@@ -4,8 +4,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class Parser {
-    HashMap <String, Integer> unsortedMap;
-    int wordsCount;
+    private HashMap <String, Integer> unsortedMap;
+    private int wordsCount;
     public Parser() {
         unsortedMap = new HashMap<>();
         wordsCount = 0;

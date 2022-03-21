@@ -8,14 +8,11 @@ import java.util.Map;
 
 
 public class Printer {
-    FileWriter fw;
+    private FileWriter fw;
     public void printTable (Map<String, Integer> map, int wordsCount) throws Exception {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            double wordFrequency;
-            wordFrequency = ((double) entry.getValue() /  (double) wordsCount) * 100.0;
-            wordFrequency *= 1000.0;
-            wordFrequency = Math.ceil(wordFrequency);
-            wordFrequency /= 1000.0;
+            double wordFrequency = ((double) entry.getValue() /  (double) wordsCount) * Constants.PERCENTS;
+            wordFrequency = round(Constants.DIGITS_AFTER_DOT, wordFrequency);
             fw.write(entry.getKey() + "," + entry.getValue() + "," + wordFrequency + "%");
             fw.write("\n");
         }
@@ -25,5 +22,11 @@ public class Printer {
     }
     public void closeFile () throws IOException {
         fw.close();
+    }
+    private double round (int digitsAfterDot, double value) {
+        value *= Math.pow(10, digitsAfterDot);
+        value = Math.ceil(value);
+        value /= Math.pow(10, digitsAfterDot);
+        return value;
     }
 }
