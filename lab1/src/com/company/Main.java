@@ -7,9 +7,8 @@ public class Main {
         try {
             MyScanner scan = new MyScanner();
             Printer printer = new Printer();
-            if (args.length != Constants.ARGUMENTS_COUNT) {
-                System.out.println("incorrect number of arguments!");
-            }
+
+            ErrorCatcher.catchErrors(args);
             Map<String, Integer> sortedMap = scan.getMap(args[Constants.INPUT_FILE]);
             printer.openFile(args[Constants.OUTPUT_FILE]);
             printer.printTable(sortedMap, scan.getWordsCount());
