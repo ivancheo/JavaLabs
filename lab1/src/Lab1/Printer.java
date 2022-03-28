@@ -1,6 +1,8 @@
-package com.company;
+package Lab1;
 
 
+
+import Lab1.Constants;
 
 import java.io.FileWriter;
 import java.io.IOException;

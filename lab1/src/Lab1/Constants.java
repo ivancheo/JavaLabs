@@ -1,4 +1,4 @@
-package com.company;
+package Lab1;
 
 public class Constants {
     final static int INPUT_FILE = 0;

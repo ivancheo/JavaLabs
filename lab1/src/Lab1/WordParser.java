@@ -1,4 +1,6 @@
-package com.company;
+package Lab1;
+
+import Lab1.Constants;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;

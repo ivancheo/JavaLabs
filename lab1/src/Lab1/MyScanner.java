@@ -1,5 +1,7 @@
-package com.company;
+package Lab1;
 
+
+import Lab1.Parser;
 
 import java.io.FileReader;
 import java.io.IOException;

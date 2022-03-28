@@ -1,4 +1,6 @@
-package com.company;
+package Lab1;
+
+import Lab1.WordParser;
 
 import java.util.*;
 import java.util.stream.Collectors;

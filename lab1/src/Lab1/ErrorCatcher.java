@@ -1,9 +1,11 @@
-package com.company;
+package Lab1;
+
+import Lab1.Constants;
 
 import java.io.File;
 
 public class ErrorCatcher {
-    public static void catchErrors (String[] args) throws Exception {
+    public static void throwIfError (String[] args) throws Exception {
         if (args.length != Constants.ARGUMENTS_COUNT) {
             throw new Exception("incorrect number of arguments!");
         }
