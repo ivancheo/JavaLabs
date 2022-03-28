@@ -6,4 +6,5 @@ public class Constants {
     final static int ARGUMENTS_COUNT = 2;
     final static int DIGITS_AFTER_DOT = 3;
     final static double PERCENTS = 100.0;
+    final static String REGEX_PATTERN = "\\w+";
 }

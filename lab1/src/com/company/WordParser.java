@@ -8,7 +8,7 @@ public class WordParser {
     public static ArrayList<String> getWords(String string) {
         ArrayList<String> words = new ArrayList<>();
         Pattern pattern =
-                Pattern.compile("\\w+", Pattern.UNICODE_CHARACTER_CLASS
+                Pattern.compile(Constants.REGEX_PATTERN, Pattern.UNICODE_CHARACTER_CLASS
                         | Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(string);
         while (matcher.find())
