@@ -10,19 +10,19 @@ import java.util.Scanner;
 
 
 public class MyScanner {
-    private FileReader fr;
-    private Scanner scan;
-    private String fileName;
+    private Parser parser;
     private int wordsCount;
-    public Map<String, Integer> getMap (String fileName) throws IOException {
-        this.fileName = fileName;
-        openFile();
-        Parser parser = new Parser();
-        while (scan.hasNextLine()) {
-            parser.updateMap(scan.nextLine());
-        }
-        fr.close();
-        wordsCount = parser.getWordsCount();
+    public Map<String, Integer> getMap (String fileName) {
+        try (FileReader fr = new FileReader(fileName);
+                Scanner scan = new Scanner(fr)) {
+                parser = new Parser();
+                while (scan.hasNextLine()) {
+                    parser.updateMap(scan.nextLine());
+                }
+                wordsCount = parser.getWordsCount();
+            } catch (IOException e){
+                e.printStackTrace();
+            }
         return parser.getSortedHashMap();
     }
 
@@ -30,8 +30,4 @@ public class MyScanner {
         return wordsCount;
     }
 
-    private void openFile () throws IOException {
-        fr = new FileReader(fileName);
-        scan = new Scanner(fr);
-    }
 }

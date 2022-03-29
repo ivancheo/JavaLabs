@@ -10,25 +10,24 @@ import java.util.Map;
 
 
 public class Printer {
-    private FileWriter fw;
-    public void printTable (Map<String, Integer> map, int wordsCount) throws Exception {
-        for (Map.Entry<String, Integer> entry : map.entrySet()) {
-            double wordFrequency = ((double) entry.getValue() /  (double) wordsCount) * Constants.PERCENTS;
-            wordFrequency = round(Constants.DIGITS_AFTER_DOT, wordFrequency);
-            fw.write(entry.getKey() + "," + entry.getValue() + "," + wordFrequency + "%");
-            fw.write("\n");
+
+    public void printTable (String fileName, Map<String, Integer> map, int wordsCount) {
+        try (FileWriter fw = new FileWriter((fileName))) {
+            for (Map.Entry<String, Integer> entry : map.entrySet()) {
+                double wordFrequency = ((double) entry.getValue() / (double) wordsCount) * Constants.PERCENTS;
+                wordFrequency = round(wordFrequency);
+                fw.write(entry.getKey() + "," + entry.getValue() + "," + wordFrequency + "%");
+                fw.write("\n");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
-    public void openFile (String fileName) throws IOException {
-        fw = new FileWriter(fileName);
-    }
-    public void closeFile () throws IOException {
-        fw.close();
-    }
-    private double round (int digitsAfterDot, double value) {
-        value *= Math.pow(10, digitsAfterDot);
+
+    private double round (double value) {
+        value *= Math.pow(10, Constants.DIGITS_AFTER_DOT);
         value = Math.ceil(value);
-        value /= Math.pow(10, digitsAfterDot);
+        value /= Math.pow(10, Constants.DIGITS_AFTER_DOT);
         return value;
     }
 }

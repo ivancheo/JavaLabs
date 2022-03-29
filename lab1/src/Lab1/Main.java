@@ -10,9 +10,8 @@ public class Main {
 
             ErrorCatcher.throwIfError(args);
             Map<String, Integer> sortedMap = scan.getMap(args[Constants.INPUT_FILE]);
-            printer.openFile(args[Constants.OUTPUT_FILE]);
-            printer.printTable(sortedMap, scan.getWordsCount());
-            printer.closeFile();
+
+            printer.printTable(args[Constants.OUTPUT_FILE], sortedMap, scan.getWordsCount());
             System.out.println("success!");
         } catch (Exception e) {
             System.out.println(e.getMessage());
