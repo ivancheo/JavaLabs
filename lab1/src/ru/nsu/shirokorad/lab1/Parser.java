@@ -1,6 +1,4 @@
-package Lab1;
-
-import Lab1.WordParser;
+package ru.nsu.shirokorad.lab1;
 
 import java.util.*;
 import java.util.stream.Collectors;

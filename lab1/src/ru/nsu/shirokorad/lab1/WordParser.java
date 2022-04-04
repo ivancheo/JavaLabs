@@ -1,6 +1,4 @@
-package Lab1;
-
-import Lab1.Constants;
+package ru.nsu.shirokorad.lab1;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;

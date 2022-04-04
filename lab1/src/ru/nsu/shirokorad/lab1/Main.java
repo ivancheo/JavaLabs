@@ -1,4 +1,4 @@
-package Lab1;
+package ru.nsu.shirokorad.lab1;
 
 import java.util.Map;
 

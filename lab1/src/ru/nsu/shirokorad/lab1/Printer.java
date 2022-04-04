@@ -1,8 +1,6 @@
-package Lab1;
+package ru.nsu.shirokorad.lab1;
 
 
-
-import Lab1.Constants;
 
 import java.io.FileWriter;
 import java.io.IOException;

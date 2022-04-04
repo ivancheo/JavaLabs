@@ -1,7 +1,5 @@
-package Lab1;
+package ru.nsu.shirokorad.lab1;
 
-
-import Lab1.Parser;
 
 import java.io.FileReader;
 import java.io.IOException;

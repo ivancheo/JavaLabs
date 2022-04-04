@@ -1,4 +1,4 @@
-package Lab1;
+package ru.nsu.shirokorad.lab1;
 
 public class Constants {
     public final static int INPUT_FILE = 0;
