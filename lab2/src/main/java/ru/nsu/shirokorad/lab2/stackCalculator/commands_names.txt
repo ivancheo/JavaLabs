@@ -1,0 +1,9 @@
++ ru.nsu.shirokorad.lab2.commands.Plus
+- ru.nsu.shirokorad.lab2.commands.Minus
+/ ru.nsu.shirokorad.lab2.commands.Division
+* ru.nsu.shirokorad.lab2.commands.Multiply
+SQRT ru.nsu.shirokorad.lab2.commands.Sqrt
+POP ru.nsu.shirokorad.lab2.commands.Pop
+PUSH ru.nsu.shirokorad.lab2.commands.Push
+PRINT ru.nsu.shirokorad.lab2.commands.Print
+DEFINE ru.nsu.shirokorad.lab2.commands.Define
