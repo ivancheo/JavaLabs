@@ -7,6 +7,7 @@ import ru.nsu.shirokorad.lab2.constants.Constants;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class StackCalculator {
@@ -36,14 +37,14 @@ public class StackCalculator {
     public void fileCalculator(String inputPath) {
         logger.info("file calculator is started");
         try (FileReader fr = new FileReader(inputPath)) {
-            Scanner scan = new Scanner(fr);
-            while (scan.hasNextLine()) {
+            scanner = new Scanner(fr);
+            while (scanner.hasNextLine()) {
                 logger.info("scan new line");
-                String line = scanner.next();
+                String line = scanner.nextLine();
                 workWithLine(line);
             }
-        } catch (Exception e) {
-            logger.error("some Exception!");
+        } catch (IOException e) {
+            logger.error("IOException!");
         }
         logger.info("file calculator is finished");
     }

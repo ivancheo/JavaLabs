@@ -1,0 +1,8 @@
+Define f 6
+Define h 10
+Push h
+Push f
++
+Print
+Sqrt
+Print
