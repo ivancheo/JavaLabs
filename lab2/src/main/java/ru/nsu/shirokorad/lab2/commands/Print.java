@@ -17,7 +17,6 @@ public class Print implements ICommand {
             if (context.stackIsEmpty()) throw new EmptyStackException();
             System.out.println(context.stackPeek());
         } catch (EmptyStackException e) {
-            System.out.println("Stack is empty");
             logger.error("EmptyStackException!!!");
         }
         logger.info("Print finished");
