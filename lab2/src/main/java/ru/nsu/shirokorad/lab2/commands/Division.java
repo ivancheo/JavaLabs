@@ -23,7 +23,7 @@ public class Division implements ICommand {
         } catch (EmptyStackException e) {
             logger.error("EmptyStackException");
         } catch (ArithmeticException e) {
-            logger.error("ArithmeticException");
+            logger.error("ArithmeticException. You can't divide on zero!!");
         }
         logger.info("Division finished");
     }

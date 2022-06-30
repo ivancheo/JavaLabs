@@ -22,7 +22,7 @@ public class Sqrt implements ICommand {
         } catch (EmptyStackException e) {
             logger.error("EmptyStackException");
         } catch (IllegalArgumentException e) {
-            logger.error("Division by zero!");
+            logger.error("Value can't be < 0!!!");
         }
         logger.info("Sqrt finished");
     }

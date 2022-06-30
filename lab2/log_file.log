@@ -25787,3 +25787,519 @@
 2022-06-23 18:02:38 INFO  StackCalculator:31 - work with line is ended
 2022-06-23 18:02:38 INFO  StackCalculator:49 - file calculator is finished
 2022-06-23 18:02:38 INFO  Main:26 - Main is finished
+2022-06-25 20:15:12 INFO  Main:15 - Main is started
+2022-06-25 20:15:12 INFO  Context:18 - called Context() constructor
+2022-06-25 20:15:12 INFO  CommandFactory:21 - called CommandFactory() constructor
+2022-06-25 20:15:12 INFO  CommandFactory:32 - generation commands map is started
+2022-06-25 20:15:12 INFO  CommandFactory:61 - + command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:61 - - command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:61 - / command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:61 - * command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:61 - SQRT command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:61 - POP command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:61 - PUSH command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:61 - PRINT command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:61 - DEFINE command put in map
+2022-06-25 20:15:12 INFO  CommandFactory:53 - generation commands map is finished
+2022-06-25 20:15:12 INFO  StackCalculator:38 - file calculator is started
+2022-06-25 20:15:12 INFO  StackCalculator:42 - scan new line
+2022-06-25 20:15:12 INFO  StackCalculator:26 - work with line is started
+2022-06-25 20:15:12 INFO  Parser:16 - parsing line
+2022-06-25 20:15:12 INFO  Context:66 - set command params: 
+2022-06-25 20:15:12 INFO  Context:68 - param 0 is f
+2022-06-25 20:15:12 INFO  Context:68 - param 1 is 6
+2022-06-25 20:15:12 INFO  CommandFactory:27 - get command Define
+2022-06-25 20:15:12 INFO  Define:25 - Define started
+2022-06-25 20:15:12 INFO  Define:39 - put variable f with value 6.0 in map
+2022-06-25 20:15:12 INFO  Define:48 - Define finished
+2022-06-25 20:15:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 20:15:12 INFO  StackCalculator:42 - scan new line
+2022-06-25 20:15:12 INFO  StackCalculator:26 - work with line is started
+2022-06-25 20:15:12 INFO  Parser:16 - parsing line
+2022-06-25 20:15:12 INFO  Context:66 - set command params: 
+2022-06-25 20:15:12 INFO  Context:68 - param 0 is h
+2022-06-25 20:15:12 INFO  Context:68 - param 1 is 10
+2022-06-25 20:15:12 INFO  CommandFactory:27 - get command Define
+2022-06-25 20:15:12 INFO  Define:25 - Define started
+2022-06-25 20:15:12 INFO  Define:39 - put variable h with value 10.0 in map
+2022-06-25 20:15:12 INFO  Define:48 - Define finished
+2022-06-25 20:15:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 20:15:12 INFO  StackCalculator:42 - scan new line
+2022-06-25 20:15:12 INFO  StackCalculator:26 - work with line is started
+2022-06-25 20:15:12 INFO  Parser:16 - parsing line
+2022-06-25 20:15:12 INFO  Context:66 - set command params: 
+2022-06-25 20:15:12 INFO  Context:68 - param 0 is h
+2022-06-25 20:15:12 INFO  CommandFactory:27 - get command Push
+2022-06-25 20:15:12 INFO  Push:25 - Push started
+2022-06-25 20:15:12 INFO  Push:35 - pushing number from defined variable
+2022-06-25 20:15:12 INFO  Context:42 - Push 10.0 in stack
+2022-06-25 20:15:12 INFO  Push:45 - Push finished
+2022-06-25 20:15:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 20:15:12 INFO  StackCalculator:42 - scan new line
+2022-06-25 20:15:12 INFO  StackCalculator:26 - work with line is started
+2022-06-25 20:15:12 INFO  Parser:16 - parsing line
+2022-06-25 20:15:12 INFO  Context:66 - set command params: 
+2022-06-25 20:15:12 INFO  Context:68 - param 0 is f
+2022-06-25 20:15:12 INFO  CommandFactory:27 - get command Push
+2022-06-25 20:15:12 INFO  Push:25 - Push started
+2022-06-25 20:15:12 INFO  Push:35 - pushing number from defined variable
+2022-06-25 20:15:12 INFO  Context:42 - Push 6.0 in stack
+2022-06-25 20:15:12 INFO  Push:45 - Push finished
+2022-06-25 20:15:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 20:15:12 INFO  StackCalculator:42 - scan new line
+2022-06-25 20:15:12 INFO  StackCalculator:26 - work with line is started
+2022-06-25 20:15:12 INFO  Parser:16 - parsing line
+2022-06-25 20:15:12 INFO  Context:66 - set command params: 
+2022-06-25 20:15:12 INFO  CommandFactory:27 - get command +
+2022-06-25 20:15:12 INFO  Plus:16 - Plus started
+2022-06-25 20:15:12 INFO  Context:36 - pop 6.0 from stack
+2022-06-25 20:15:12 INFO  Context:36 - pop 10.0 from stack
+2022-06-25 20:15:12 INFO  Context:42 - Push 16.0 in stack
+2022-06-25 20:15:12 INFO  Plus:25 - Plus finished
+2022-06-25 20:15:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 20:15:12 INFO  StackCalculator:42 - scan new line
+2022-06-25 20:15:12 INFO  StackCalculator:26 - work with line is started
+2022-06-25 20:15:12 INFO  Parser:16 - parsing line
+2022-06-25 20:15:12 INFO  Context:66 - set command params: 
+2022-06-25 20:15:12 INFO  CommandFactory:27 - get command Print
+2022-06-25 20:15:12 INFO  Print:15 - Print started
+2022-06-25 20:15:12 INFO  Context:48 - start stackPeek()
+2022-06-25 20:15:12 INFO  Context:50 - peek 16.0 from stack
+2022-06-25 20:15:12 INFO  Print:23 - Print finished
+2022-06-25 20:15:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 20:15:12 INFO  StackCalculator:42 - scan new line
+2022-06-25 20:15:12 INFO  StackCalculator:26 - work with line is started
+2022-06-25 20:15:12 INFO  Parser:16 - parsing line
+2022-06-25 20:15:12 INFO  Context:66 - set command params: 
+2022-06-25 20:15:12 INFO  CommandFactory:27 - get command Sqrt
+2022-06-25 20:15:12 INFO  Sqrt:16 - Sqrt started
+2022-06-25 20:15:12 INFO  Context:36 - pop 16.0 from stack
+2022-06-25 20:15:12 INFO  Context:42 - Push 4.0 in stack
+2022-06-25 20:15:12 INFO  Sqrt:27 - Sqrt finished
+2022-06-25 20:15:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 20:15:12 INFO  StackCalculator:42 - scan new line
+2022-06-25 20:15:12 INFO  StackCalculator:26 - work with line is started
+2022-06-25 20:15:12 INFO  Parser:16 - parsing line
+2022-06-25 20:15:12 INFO  Context:66 - set command params: 
+2022-06-25 20:15:12 INFO  CommandFactory:27 - get command Print
+2022-06-25 20:15:12 INFO  Print:15 - Print started
+2022-06-25 20:15:12 INFO  Context:48 - start stackPeek()
+2022-06-25 20:15:12 INFO  Context:50 - peek 4.0 from stack
+2022-06-25 20:15:12 INFO  Print:23 - Print finished
+2022-06-25 20:15:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 20:15:12 INFO  StackCalculator:49 - file calculator is finished
+2022-06-25 20:15:12 INFO  Main:26 - Main is finished
+2022-06-25 21:48:40 INFO  Main:15 - Main is started
+2022-06-25 21:48:40 INFO  Context:18 - called Context() constructor
+2022-06-25 21:48:40 INFO  CommandFactory:21 - called CommandFactory() constructor
+2022-06-25 21:48:40 INFO  CommandFactory:32 - generation commands map is started
+2022-06-25 21:48:40 INFO  CommandFactory:61 - + command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:61 - - command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:61 - / command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:61 - * command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:61 - SQRT command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:61 - POP command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:61 - PUSH command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:61 - PRINT command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:61 - DEFINE command put in map
+2022-06-25 21:48:40 INFO  CommandFactory:53 - generation commands map is finished
+2022-06-25 21:48:40 INFO  StackCalculator:52 - console calculator is started
+2022-06-25 21:48:48 INFO  StackCalculator:56 - read new line
+2022-06-25 21:48:48 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:48:48 INFO  Parser:16 - parsing line
+2022-06-25 21:48:48 INFO  Context:66 - set command params: 
+2022-06-25 21:48:48 INFO  Context:68 - param 0 is 8
+2022-06-25 21:48:48 INFO  CommandFactory:27 - get command push
+2022-06-25 21:48:48 INFO  Push:25 - Push started
+2022-06-25 21:48:48 INFO  Push:32 - pushing just number
+2022-06-25 21:48:48 INFO  Context:42 - Push 8.0 in stack
+2022-06-25 21:48:48 INFO  Push:45 - Push finished
+2022-06-25 21:48:48 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:48:52 INFO  StackCalculator:56 - read new line
+2022-06-25 21:48:52 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:48:52 INFO  Parser:16 - parsing line
+2022-06-25 21:48:52 INFO  Context:66 - set command params: 
+2022-06-25 21:48:52 INFO  Context:68 - param 0 is 0
+2022-06-25 21:48:52 INFO  CommandFactory:27 - get command push
+2022-06-25 21:48:52 INFO  Push:25 - Push started
+2022-06-25 21:48:52 INFO  Push:32 - pushing just number
+2022-06-25 21:48:52 INFO  Context:42 - Push 0.0 in stack
+2022-06-25 21:48:52 INFO  Push:45 - Push finished
+2022-06-25 21:48:52 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:48:54 INFO  StackCalculator:56 - read new line
+2022-06-25 21:48:54 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:48:54 INFO  Parser:16 - parsing line
+2022-06-25 21:48:54 INFO  Context:66 - set command params: 
+2022-06-25 21:48:54 INFO  CommandFactory:27 - get command /
+2022-06-25 21:48:54 INFO  Division:16 - Division started
+2022-06-25 21:48:54 INFO  Context:36 - pop 0.0 from stack
+2022-06-25 21:48:54 INFO  Context:36 - pop 8.0 from stack
+2022-06-25 21:48:54 ERROR Division:26 - ArithmeticException
+2022-06-25 21:48:54 INFO  Division:28 - Division finished
+2022-06-25 21:48:54 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:48:56 INFO  StackCalculator:56 - read new line
+2022-06-25 21:48:56 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:48:56 INFO  Parser:16 - parsing line
+2022-06-25 21:48:56 INFO  Context:66 - set command params: 
+2022-06-25 21:48:56 INFO  CommandFactory:27 - get command print
+2022-06-25 21:48:56 INFO  Print:15 - Print started
+2022-06-25 21:48:56 ERROR Print:21 - EmptyStackException!!!
+2022-06-25 21:48:56 INFO  Print:23 - Print finished
+2022-06-25 21:48:56 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:51:57 INFO  StackCalculator:56 - read new line
+2022-06-25 21:51:57 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:51:57 INFO  Parser:16 - parsing line
+2022-06-25 21:51:57 INFO  Context:66 - set command params: 
+2022-06-25 21:51:57 INFO  Context:68 - param 0 is a
+2022-06-25 21:51:57 INFO  Context:68 - param 1 is .00000000000000000001
+2022-06-25 21:51:57 INFO  CommandFactory:27 - get command define
+2022-06-25 21:51:57 INFO  Define:25 - Define started
+2022-06-25 21:51:57 INFO  Define:39 - put variable a with value 1.0E-20 in map
+2022-06-25 21:51:57 INFO  Define:48 - Define finished
+2022-06-25 21:51:57 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:52:01 INFO  StackCalculator:56 - read new line
+2022-06-25 21:52:01 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:52:01 INFO  Parser:16 - parsing line
+2022-06-25 21:52:01 INFO  Context:66 - set command params: 
+2022-06-25 21:52:01 INFO  Context:68 - param 0 is a
+2022-06-25 21:52:01 INFO  CommandFactory:27 - get command push
+2022-06-25 21:52:01 INFO  Push:25 - Push started
+2022-06-25 21:52:01 INFO  Push:35 - pushing number from defined variable
+2022-06-25 21:52:01 INFO  Context:42 - Push 1.0E-20 in stack
+2022-06-25 21:52:01 INFO  Push:45 - Push finished
+2022-06-25 21:52:01 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:52:03 INFO  StackCalculator:56 - read new line
+2022-06-25 21:52:03 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:52:03 INFO  Parser:16 - parsing line
+2022-06-25 21:52:03 INFO  Context:66 - set command params: 
+2022-06-25 21:52:03 INFO  CommandFactory:27 - get command print
+2022-06-25 21:52:03 INFO  Print:15 - Print started
+2022-06-25 21:52:03 INFO  Context:48 - start stackPeek()
+2022-06-25 21:52:03 INFO  Context:50 - peek 1.0E-20 from stack
+2022-06-25 21:52:03 INFO  Print:23 - Print finished
+2022-06-25 21:52:03 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:52:17 INFO  StackCalculator:56 - read new line
+2022-06-25 21:52:17 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:52:17 INFO  Parser:16 - parsing line
+2022-06-25 21:52:17 INFO  Context:66 - set command params: 
+2022-06-25 21:52:17 INFO  Context:68 - param 0 is a
+2022-06-25 21:52:17 INFO  Context:68 - param 1 is 0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001
+2022-06-25 21:52:17 INFO  CommandFactory:27 - get command define
+2022-06-25 21:52:17 INFO  Define:25 - Define started
+2022-06-25 21:52:17 INFO  Define:36 - defines map already have this variable. replace
+2022-06-25 21:52:17 INFO  Define:48 - Define finished
+2022-06-25 21:52:17 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:52:21 INFO  StackCalculator:56 - read new line
+2022-06-25 21:52:21 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:52:21 INFO  Parser:16 - parsing line
+2022-06-25 21:52:21 INFO  Context:66 - set command params: 
+2022-06-25 21:52:21 INFO  Context:68 - param 0 is a
+2022-06-25 21:52:21 INFO  CommandFactory:27 - get command push
+2022-06-25 21:52:21 INFO  Push:25 - Push started
+2022-06-25 21:52:21 INFO  Push:35 - pushing number from defined variable
+2022-06-25 21:52:21 INFO  Context:42 - Push 1.0E-116 in stack
+2022-06-25 21:52:21 INFO  Push:45 - Push finished
+2022-06-25 21:52:21 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:52:22 INFO  StackCalculator:56 - read new line
+2022-06-25 21:52:22 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:52:22 INFO  Parser:16 - parsing line
+2022-06-25 21:52:22 INFO  Context:66 - set command params: 
+2022-06-25 21:52:22 INFO  CommandFactory:27 - get command print
+2022-06-25 21:52:22 INFO  Print:15 - Print started
+2022-06-25 21:52:22 INFO  Context:48 - start stackPeek()
+2022-06-25 21:52:22 INFO  Context:50 - peek 1.0E-116 from stack
+2022-06-25 21:52:22 INFO  Print:23 - Print finished
+2022-06-25 21:52:22 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:52:29 INFO  StackCalculator:56 - read new line
+2022-06-25 21:52:29 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:52:29 INFO  Parser:16 - parsing line
+2022-06-25 21:52:29 INFO  Context:66 - set command params: 
+2022-06-25 21:52:29 INFO  Context:68 - param 0 is a
+2022-06-25 21:52:29 INFO  CommandFactory:27 - get command push
+2022-06-25 21:52:29 INFO  Push:25 - Push started
+2022-06-25 21:52:29 INFO  Push:35 - pushing number from defined variable
+2022-06-25 21:52:29 INFO  Context:42 - Push 1.0E-116 in stack
+2022-06-25 21:52:29 INFO  Push:45 - Push finished
+2022-06-25 21:52:29 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:52:30 INFO  StackCalculator:56 - read new line
+2022-06-25 21:52:30 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:52:30 INFO  Parser:16 - parsing line
+2022-06-25 21:52:30 INFO  Context:66 - set command params: 
+2022-06-25 21:52:30 INFO  CommandFactory:27 - get command /
+2022-06-25 21:52:30 INFO  Division:16 - Division started
+2022-06-25 21:52:30 INFO  Context:36 - pop 1.0E-116 from stack
+2022-06-25 21:52:30 INFO  Context:36 - pop 1.0E-116 from stack
+2022-06-25 21:52:30 INFO  Context:42 - Push 1.0 in stack
+2022-06-25 21:52:30 INFO  Division:28 - Division finished
+2022-06-25 21:52:30 INFO  StackCalculator:31 - work with line is ended
+2022-06-25 21:52:32 INFO  StackCalculator:56 - read new line
+2022-06-25 21:52:32 INFO  StackCalculator:26 - work with line is started
+2022-06-25 21:52:32 INFO  Parser:16 - parsing line
+2022-06-25 21:52:32 INFO  Context:66 - set command params: 
+2022-06-25 21:52:32 INFO  CommandFactory:27 - get command print
+2022-06-25 21:52:32 INFO  Print:15 - Print started
+2022-06-25 21:52:32 INFO  Context:48 - start stackPeek()
+2022-06-25 21:52:32 INFO  Context:50 - peek 1.0 from stack
+2022-06-25 21:52:32 INFO  Print:23 - Print finished
+2022-06-25 21:52:32 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 16:47:48 INFO  Main:15 - Main is started
+2022-06-30 16:47:48 INFO  Context:18 - called Context() constructor
+2022-06-30 16:47:48 INFO  CommandFactory:21 - called CommandFactory() constructor
+2022-06-30 16:47:48 INFO  CommandFactory:32 - generation commands map is started
+2022-06-30 16:47:48 INFO  CommandFactory:61 - + command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:61 - - command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:61 - / command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:61 - * command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:61 - SQRT command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:61 - POP command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:61 - PUSH command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:61 - PRINT command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:61 - DEFINE command put in map
+2022-06-30 16:47:48 INFO  CommandFactory:53 - generation commands map is finished
+2022-06-30 16:47:48 INFO  StackCalculator:52 - console calculator is started
+2022-06-30 16:48:08 INFO  StackCalculator:56 - read new line
+2022-06-30 16:48:08 INFO  StackCalculator:26 - work with line is started
+2022-06-30 16:48:08 INFO  Parser:16 - parsing line
+2022-06-30 16:48:08 INFO  Context:66 - set command params: 
+2022-06-30 16:48:08 INFO  Context:68 - param 0 is -7
+2022-06-30 16:48:08 INFO  CommandFactory:27 - get command push
+2022-06-30 16:48:08 INFO  Push:25 - Push started
+2022-06-30 16:48:08 INFO  Push:32 - pushing just number
+2022-06-30 16:48:08 INFO  Context:42 - Push -7.0 in stack
+2022-06-30 16:48:08 INFO  Push:45 - Push finished
+2022-06-30 16:48:08 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 16:48:15 INFO  StackCalculator:56 - read new line
+2022-06-30 16:48:15 INFO  StackCalculator:26 - work with line is started
+2022-06-30 16:48:15 INFO  Parser:16 - parsing line
+2022-06-30 16:48:15 INFO  Context:66 - set command params: 
+2022-06-30 16:48:15 INFO  CommandFactory:27 - get command sqrt
+2022-06-30 16:48:15 INFO  Sqrt:16 - Sqrt started
+2022-06-30 16:48:15 INFO  Context:36 - pop -7.0 from stack
+2022-06-30 16:48:15 ERROR Sqrt:25 - Value cant be < 0!!!
+2022-06-30 16:48:15 INFO  Sqrt:27 - Sqrt finished
+2022-06-30 16:48:15 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 16:48:58 INFO  StackCalculator:56 - read new line
+2022-06-30 16:48:58 INFO  StackCalculator:26 - work with line is started
+2022-06-30 16:48:58 INFO  Parser:16 - parsing line
+2022-06-30 16:48:58 INFO  Context:66 - set command params: 
+2022-06-30 16:48:58 INFO  CommandFactory:27 - get command print
+2022-06-30 16:48:58 INFO  Print:15 - Print started
+2022-06-30 16:48:58 ERROR Print:21 - EmptyStackException!!!
+2022-06-30 16:48:58 INFO  Print:23 - Print finished
+2022-06-30 16:48:58 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:17:33 INFO  Main:15 - Main is started
+2022-06-30 17:17:33 INFO  Context:18 - called Context() constructor
+2022-06-30 17:17:33 INFO  CommandFactory:21 - called CommandFactory() constructor
+2022-06-30 17:17:33 INFO  CommandFactory:32 - generation commands map is started
+2022-06-30 17:17:33 INFO  CommandFactory:61 - + command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:61 - - command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:61 - / command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:61 - * command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:61 - SQRT command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:61 - POP command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:61 - PUSH command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:61 - PRINT command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:61 - DEFINE command put in map
+2022-06-30 17:17:33 INFO  CommandFactory:53 - generation commands map is finished
+2022-06-30 17:17:33 INFO  StackCalculator:52 - console calculator is started
+2022-06-30 17:20:07 INFO  Main:15 - Main is started
+2022-06-30 17:20:07 INFO  Context:18 - called Context() constructor
+2022-06-30 17:20:07 INFO  CommandFactory:21 - called CommandFactory() constructor
+2022-06-30 17:20:07 INFO  CommandFactory:32 - generation commands map is started
+2022-06-30 17:20:07 INFO  CommandFactory:61 - + command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:61 - - command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:61 - / command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:61 - * command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:61 - SQRT command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:61 - POP command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:61 - PUSH command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:61 - PRINT command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:61 - DEFINE command put in map
+2022-06-30 17:20:07 INFO  CommandFactory:53 - generation commands map is finished
+2022-06-30 17:20:07 INFO  StackCalculator:52 - console calculator is started
+2022-06-30 17:20:23 INFO  Main:15 - Main is started
+2022-06-30 17:20:23 INFO  Context:18 - called Context() constructor
+2022-06-30 17:20:23 INFO  CommandFactory:21 - called CommandFactory() constructor
+2022-06-30 17:20:23 INFO  CommandFactory:32 - generation commands map is started
+2022-06-30 17:20:23 INFO  CommandFactory:61 - + command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:61 - - command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:61 - / command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:61 - * command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:61 - SQRT command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:61 - POP command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:61 - PUSH command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:61 - PRINT command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:61 - DEFINE command put in map
+2022-06-30 17:20:23 INFO  CommandFactory:53 - generation commands map is finished
+2022-06-30 17:20:23 INFO  StackCalculator:52 - console calculator is started
+2022-06-30 17:20:41 INFO  Main:15 - Main is started
+2022-06-30 17:20:41 INFO  Context:18 - called Context() constructor
+2022-06-30 17:20:41 INFO  CommandFactory:21 - called CommandFactory() constructor
+2022-06-30 17:20:41 INFO  CommandFactory:32 - generation commands map is started
+2022-06-30 17:20:41 INFO  CommandFactory:61 - + command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:61 - - command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:61 - / command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:61 - * command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:61 - SQRT command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:61 - POP command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:61 - PUSH command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:61 - PRINT command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:61 - DEFINE command put in map
+2022-06-30 17:20:41 INFO  CommandFactory:53 - generation commands map is finished
+2022-06-30 17:20:41 INFO  StackCalculator:52 - console calculator is started
+2022-06-30 17:20:46 INFO  StackCalculator:56 - read new line
+2022-06-30 17:20:46 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:20:46 INFO  Parser:16 - parsing line
+2022-06-30 17:20:46 INFO  Context:66 - set command params: 
+2022-06-30 17:20:46 INFO  Context:68 - param 0 is -7
+2022-06-30 17:20:46 INFO  CommandFactory:27 - get command push
+2022-06-30 17:20:46 INFO  Push:25 - Push started
+2022-06-30 17:20:46 INFO  Push:32 - pushing just number
+2022-06-30 17:20:46 INFO  Context:42 - Push -7.0 in stack
+2022-06-30 17:20:46 INFO  Push:45 - Push finished
+2022-06-30 17:20:46 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:20:48 INFO  StackCalculator:56 - read new line
+2022-06-30 17:20:48 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:20:48 INFO  Parser:16 - parsing line
+2022-06-30 17:20:48 INFO  Context:66 - set command params: 
+2022-06-30 17:20:48 INFO  CommandFactory:27 - get command sqrt
+2022-06-30 17:20:48 INFO  Sqrt:16 - Sqrt started
+2022-06-30 17:20:48 INFO  Context:36 - pop -7.0 from stack
+2022-06-30 17:20:48 ERROR Sqrt:25 - Value can't be < 0!!!
+2022-06-30 17:20:48 INFO  Sqrt:27 - Sqrt finished
+2022-06-30 17:20:48 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:20:57 INFO  StackCalculator:56 - read new line
+2022-06-30 17:20:57 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:20:57 INFO  Parser:16 - parsing line
+2022-06-30 17:20:57 INFO  Context:66 - set command params: 
+2022-06-30 17:20:57 INFO  Context:68 - param 0 is 0
+2022-06-30 17:20:57 INFO  CommandFactory:27 - get command push
+2022-06-30 17:20:57 INFO  Push:25 - Push started
+2022-06-30 17:20:57 INFO  Push:32 - pushing just number
+2022-06-30 17:20:57 INFO  Context:42 - Push 0.0 in stack
+2022-06-30 17:20:57 INFO  Push:45 - Push finished
+2022-06-30 17:20:57 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:20:59 INFO  StackCalculator:56 - read new line
+2022-06-30 17:20:59 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:20:59 INFO  Parser:16 - parsing line
+2022-06-30 17:20:59 INFO  Context:66 - set command params: 
+2022-06-30 17:20:59 INFO  Context:68 - param 0 is 8
+2022-06-30 17:20:59 INFO  CommandFactory:27 - get command push
+2022-06-30 17:20:59 INFO  Push:25 - Push started
+2022-06-30 17:20:59 INFO  Push:32 - pushing just number
+2022-06-30 17:20:59 INFO  Context:42 - Push 8.0 in stack
+2022-06-30 17:20:59 INFO  Push:45 - Push finished
+2022-06-30 17:20:59 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:21:01 INFO  StackCalculator:56 - read new line
+2022-06-30 17:21:01 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:21:01 INFO  Parser:16 - parsing line
+2022-06-30 17:21:01 INFO  Context:66 - set command params: 
+2022-06-30 17:21:01 INFO  CommandFactory:27 - get command /
+2022-06-30 17:21:01 INFO  Division:16 - Division started
+2022-06-30 17:21:01 INFO  Context:36 - pop 8.0 from stack
+2022-06-30 17:21:01 INFO  Context:36 - pop 0.0 from stack
+2022-06-30 17:21:01 INFO  Context:42 - Push 0.0 in stack
+2022-06-30 17:21:01 INFO  Division:29 - Division finished
+2022-06-30 17:21:01 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:21:05 INFO  StackCalculator:56 - read new line
+2022-06-30 17:21:05 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:21:05 INFO  Parser:16 - parsing line
+2022-06-30 17:21:05 INFO  Context:66 - set command params: 
+2022-06-30 17:21:05 INFO  Context:68 - param 0 is 8
+2022-06-30 17:21:05 INFO  CommandFactory:27 - get command push
+2022-06-30 17:21:05 INFO  Push:25 - Push started
+2022-06-30 17:21:05 INFO  Push:32 - pushing just number
+2022-06-30 17:21:05 INFO  Context:42 - Push 8.0 in stack
+2022-06-30 17:21:05 INFO  Push:45 - Push finished
+2022-06-30 17:21:05 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:21:07 INFO  StackCalculator:56 - read new line
+2022-06-30 17:21:07 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:21:07 INFO  Parser:16 - parsing line
+2022-06-30 17:21:07 INFO  Context:66 - set command params: 
+2022-06-30 17:21:07 INFO  Context:68 - param 0 is 0
+2022-06-30 17:21:07 INFO  CommandFactory:27 - get command push
+2022-06-30 17:21:07 INFO  Push:25 - Push started
+2022-06-30 17:21:07 INFO  Push:32 - pushing just number
+2022-06-30 17:21:07 INFO  Context:42 - Push 0.0 in stack
+2022-06-30 17:21:07 INFO  Push:45 - Push finished
+2022-06-30 17:21:07 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:21:09 INFO  StackCalculator:56 - read new line
+2022-06-30 17:21:09 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:21:09 INFO  Parser:16 - parsing line
+2022-06-30 17:21:09 INFO  Context:66 - set command params: 
+2022-06-30 17:21:09 INFO  CommandFactory:27 - get command /
+2022-06-30 17:21:09 INFO  Division:16 - Division started
+2022-06-30 17:21:09 INFO  Context:36 - pop 0.0 from stack
+2022-06-30 17:21:09 INFO  Context:36 - pop 8.0 from stack
+2022-06-30 17:21:09 ERROR Division:27 - ArithmeticException
+2022-06-30 17:21:09 INFO  Division:29 - Division finished
+2022-06-30 17:21:09 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:22:07 INFO  Main:13 - Main is started
+2022-06-30 17:22:07 INFO  Context:18 - called Context() constructor
+2022-06-30 17:22:07 INFO  CommandFactory:21 - called CommandFactory() constructor
+2022-06-30 17:22:07 INFO  CommandFactory:32 - generation commands map is started
+2022-06-30 17:22:07 INFO  CommandFactory:61 - + command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:61 - - command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:61 - / command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:61 - * command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:61 - SQRT command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:61 - POP command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:61 - PUSH command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:61 - PRINT command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:61 - DEFINE command put in map
+2022-06-30 17:22:07 INFO  CommandFactory:53 - generation commands map is finished
+2022-06-30 17:22:07 INFO  StackCalculator:52 - console calculator is started
+2022-06-30 17:22:12 INFO  StackCalculator:56 - read new line
+2022-06-30 17:22:12 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:22:12 INFO  Parser:16 - parsing line
+2022-06-30 17:22:12 INFO  Context:66 - set command params: 
+2022-06-30 17:22:12 INFO  Context:68 - param 0 is 9
+2022-06-30 17:22:12 INFO  CommandFactory:27 - get command push
+2022-06-30 17:22:12 INFO  Push:25 - Push started
+2022-06-30 17:22:12 INFO  Push:32 - pushing just number
+2022-06-30 17:22:12 INFO  Context:42 - Push 9.0 in stack
+2022-06-30 17:22:12 INFO  Push:45 - Push finished
+2022-06-30 17:22:12 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:22:14 INFO  StackCalculator:56 - read new line
+2022-06-30 17:22:14 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:22:14 INFO  Parser:16 - parsing line
+2022-06-30 17:22:14 INFO  Context:66 - set command params: 
+2022-06-30 17:22:14 INFO  Context:68 - param 0 is 0
+2022-06-30 17:22:14 INFO  CommandFactory:27 - get command push
+2022-06-30 17:22:14 INFO  Push:25 - Push started
+2022-06-30 17:22:14 INFO  Push:32 - pushing just number
+2022-06-30 17:22:14 INFO  Context:42 - Push 0.0 in stack
+2022-06-30 17:22:14 INFO  Push:45 - Push finished
+2022-06-30 17:22:14 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:22:16 INFO  StackCalculator:56 - read new line
+2022-06-30 17:22:16 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:22:16 INFO  Parser:16 - parsing line
+2022-06-30 17:22:16 INFO  Context:66 - set command params: 
+2022-06-30 17:22:16 INFO  CommandFactory:27 - get command /
+2022-06-30 17:22:16 INFO  Division:16 - Division started
+2022-06-30 17:22:16 INFO  Context:36 - pop 0.0 from stack
+2022-06-30 17:22:16 INFO  Context:36 - pop 9.0 from stack
+2022-06-30 17:22:16 ERROR Division:26 - ArithmeticException. You can't divide on zero!!
+2022-06-30 17:22:16 INFO  Division:28 - Division finished
+2022-06-30 17:22:16 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:22:34 INFO  StackCalculator:56 - read new line
+2022-06-30 17:22:34 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:22:34 INFO  Parser:16 - parsing line
+2022-06-30 17:22:34 INFO  Context:66 - set command params: 
+2022-06-30 17:22:34 INFO  Context:68 - param 0 is -8
+2022-06-30 17:22:34 INFO  CommandFactory:27 - get command push
+2022-06-30 17:22:34 INFO  Push:25 - Push started
+2022-06-30 17:22:34 INFO  Push:32 - pushing just number
+2022-06-30 17:22:34 INFO  Context:42 - Push -8.0 in stack
+2022-06-30 17:22:34 INFO  Push:45 - Push finished
+2022-06-30 17:22:34 INFO  StackCalculator:31 - work with line is ended
+2022-06-30 17:22:36 INFO  StackCalculator:56 - read new line
+2022-06-30 17:22:36 INFO  StackCalculator:26 - work with line is started
+2022-06-30 17:22:36 INFO  Parser:16 - parsing line
+2022-06-30 17:22:36 INFO  Context:66 - set command params: 
+2022-06-30 17:22:36 INFO  CommandFactory:27 - get command sqrt
+2022-06-30 17:22:36 INFO  Sqrt:16 - Sqrt started
+2022-06-30 17:22:36 INFO  Context:36 - pop -8.0 from stack
+2022-06-30 17:22:36 ERROR Sqrt:25 - Value can't be < 0!!!
+2022-06-30 17:22:36 INFO  Sqrt:27 - Sqrt finished
+2022-06-30 17:22:36 INFO  StackCalculator:31 - work with line is ended

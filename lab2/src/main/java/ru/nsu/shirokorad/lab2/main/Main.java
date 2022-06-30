@@ -6,8 +6,6 @@ import ru.nsu.shirokorad.lab2.constants.Constants;
 import ru.nsu.shirokorad.lab2.stackCalculator.StackCalculator;
 
 
-import java.io.File;
-
 public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
 
