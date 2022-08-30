@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: GAINSBORO;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.nsu.shirokorad.lab3.view.AboutController">
+   <children>
+      <Button fx:id="mainMenuButton" layoutX="8.0" layoutY="351.0" mnemonicParsing="false" onAction="#pressMainMenuButton" prefHeight="54.0" prefWidth="226.0" style="-fx-background-color: DARKSALMON;" text="Main Menu">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="28.0" />
+         </font></Button>
+      <ImageView fitHeight="470.0" fitWidth="398.0" layoutX="243.0" layoutY="-64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@respect_for_tetris_from_ivan_shirokorad.png" />
+         </image>
+      </ImageView>
+      <TextArea prefHeight="157.0" prefWidth="243.0" text="&quot;The best game that I see! Ivan Shirokorad really good man!&quot; (c) Leonardo DiCaprio " wrapText="true">
+         <font>
+            <Font name="Constantia Bold" size="21.0" />
+         </font>
+      </TextArea>
+      <TextArea layoutY="158.0" prefHeight="122.0" prefWidth="243.0" style="-fx-background-color: KHAKI;" text="* Tetris is developed in Russia by Ivan Shirokorad in 2022. " wrapText="true">
+         <font>
+            <Font name="Constantia Bold" size="22.0" />
+         </font>
+      </TextArea>
+      <Text layoutX="4.0" layoutY="293.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Просто отличная игра! Играю в нее всю жизнь! Лучшее изобретение человечества! Спасибо Ивану Широкораду за нее! (с) Райан Гослинг" wrappingWidth="235.9999755859376">
+         <font>
+            <Font name="Candara" size="13.0" />
+         </font></Text>
+   </children>
+</AnchorPane>
