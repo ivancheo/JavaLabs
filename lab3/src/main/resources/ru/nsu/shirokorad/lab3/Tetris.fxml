@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import ru.nsu.shirokorad.lab3.view.GameOverPanel?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+<Pane fx:controller="ru.nsu.shirokorad.lab3.view.TetrisController"
+      xmlns:fx="http://javafx.com/fxml">
+    <GridPane fx:id="brickPanel" vgap="1" hgap="1"/>
+    <BorderPane styleClass="gameBoard" fx:id="gameBoard">
+        <center>
+            <GridPane fx:id="gamePanel" hgap="1" vgap="1" layoutY="30" layoutX="40"/>
+        </center>
+    </BorderPane>
+
+    <VBox layoutX="243" layoutY="20" alignment="CENTER" styleClass="vbox">
+        <VBox alignment="CENTER">
+            <Label text="score:" styleClass="scoreClass"/>
+            <Text text="Text" fx:id="scoreValue" styleClass="scoreClass"/>
+        </VBox>
+
+        <Button text="New Game" fx:id="newGameButton" onAction="#pressNewGameButton" styleClass="ipad-dark-grey" prefWidth="140"/>
+        <Button text="Main Menu" fx:id="mainMenuButton" onAction="#pressMainMenuButton" styleClass="ipad-dark-grey" prefWidth="140"/>
+        <VBox fx:id="helpBox">
+
+            <Text styleClass="helpInfo" wrappingWidth="150">
+                <![CDATA[
+                Use (←, ↑, →, ↓) or (A,S,D,W) for movement and rotating.
+                ]]>
+            </Text>
+            <Text styleClass="helpInfo" wrappingWidth="150">
+                <![CDATA[
+                1 line - 50, 2 lines - 200, 3 lines - 450, 4 lines - 800
+                ]]>
+            </Text>
+        </VBox>
+    </VBox>
+    <Group fx:id="groupNotification" layoutX="14" layoutY="203">
+        <VBox alignment="CENTER">
+            <GameOverPanel fx:id="gameOverPanel"/>
+        </VBox>
+    </Group>
+    <stylesheets>
+        <URL value="@window_style.css"/>
+    </stylesheets>
+</Pane>
+
